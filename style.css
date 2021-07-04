@@ -11,14 +11,17 @@ h2{
     font-size: 40px;
 }
 
-section{
-    height: 500px;
+.flexible-container{
     margin-bottom: 100px;
     display: flex;
 }
 
 .orange-color{
     color: orange;
+}
+
+.white-color{
+    color: white;
 }
 
 .half-width{
@@ -46,4 +49,55 @@ section{
     background-image: url(images/top-banner.png);
     padding: 0;
     background-repeat: no-repeat;
+}
+
+.my-dream{
+   background-image: url(images/dream-bg.png);
+   padding: 0;
+   background-position: right;
+   background-repeat: no-repeat;
+}
+
+.my-dream p{
+    padding-right: 58px;
+    text-align: justify;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+
+.experience-item p{
+    text-align: justify;
+}
+
+#joniur-web-dev{
+    border-left:  7px solid tomato;
+    background-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+
+#full-satck-dev{
+    border-right: 7px solid blue;
+    background-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
 }
